@@ -4,6 +4,17 @@ languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
 
+PygmentsCodeFences = true
+PygmentsStyle = "one-dark"
+
+enableEmoji     = true
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "CzrSec"
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -23,6 +34,40 @@ paginate     = 10
   description = "Cyber Security Researcher, Pen-tester, Consultant"
   keywords = "cyber, security, offsec"
   images = [""]
+
+  enableThemeToggle = true
+
+  customCSS = []
+  customJS  = []
+
+
+  [params.footer]
+    trademark = true
+    rss = false
+    copyright = true
+    author = true
+
+    topText = []
+    bottomText = []
+
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/czrsec"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:helo@czrsec.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/czrsec"
+
 
 [taxonomies]
     category = "blog"
