@@ -1,4 +1,4 @@
-baseurl      = "czrsec.github.io"
+baseurl      = "/"
 title        = "CzrSec"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
