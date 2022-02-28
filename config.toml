@@ -40,7 +40,6 @@ enableEmoji     = true
   customCSS = []
   customJS  = []
 
-
   [params.footer]
     trademark = true
     rss = false
@@ -95,6 +94,9 @@ enableEmoji     = true
       path = "/images/czrsec.jpg"
       alt = "Apes Together Strong"
       maxWidth = "200px"
+      animationLength = 0.7 # infinite
+      filter = "none" # "grayscale(100%) sepia(100%) saturate(350%) hue-rotate(240deg) brightness(121%) contrast(121%)"
+
 
   # And you can even create generic menu
   [[menu.main]]
